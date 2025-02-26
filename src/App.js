@@ -6,6 +6,8 @@ import Categories from "./components/Categories";
 import ShowFullItem from "./components/ShowFullItem";
 import { Routes, Route } from 'react-router-dom';
 import Register from './components/Register';
+
+
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -44,7 +46,10 @@ class App extends React.Component {
               {this.state.showFullItem && <ShowFullItem onAdd={this.addToOrder} onShowItem={this.onShowItem} item={this.state.fullItem} />}
             </>
           } /> {/* Этот маршрут для страницы регистрации */}
-          <Route path="/register" element={<Register />} /> {/* Этот маршрут для страницы регистрации */}
+          <Route path="/register" element={<Register />}
+
+
+          /> {/* Этот маршрут для страницы регистрации */}
         </Routes>
         <Footer />
       </div>
