@@ -6,7 +6,7 @@ import Categories from "./components/Categories";
 import ShowFullItem from "./components/ShowFullItem";
 import { Routes, Route } from 'react-router-dom';
 import Register from './components/Register';
-
+import Questions from './components/Questions';
 
 class App extends React.Component {
   constructor(props) {
@@ -50,6 +50,14 @@ class App extends React.Component {
 
 
           /> {/* Этот маршрут для страницы регистрации */}
+
+
+<Route path="/questions" element={<Questions />} />
+
+
+
+
+
         </Routes>
         <Footer />
       </div>
