@@ -47,17 +47,8 @@ class App extends React.Component {
             </>
           } /> {/* Этот маршрут для страницы регистрации */}
           <Route path="/register" element={<Register />}
-
-
           /> {/* Этот маршрут для страницы регистрации */}
-
-
-<Route path="/questions" element={<Questions />} />
-
-
-
-
-
+          <Route path="/questions" element={<Questions />} />
         </Routes>
         <Footer />
       </div>

@@ -30,7 +30,6 @@ const Header = (props) => {
                 <ul className='nav'>
                     <li><Link to="/" style={{ cursor: 'pointer' }}>Главная</Link></li>
                     <li><Link to="/questions">Вопросы и ответы</Link></li>
-
                     <li>
                         <Link to="/register" style={{ cursor: 'pointer' }}>Кабинет</Link>
                     </li>
